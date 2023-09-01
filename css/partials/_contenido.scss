@@ -1,0 +1,25 @@
+.contenido{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 400px;
+ 
+ }
+ 
+ .contenido img{
+     width: 25rem;
+     transform: translateY(0px);
+     animation: float 6s ease-in-out infinite;
+     .introduccion{
+         background: -webkit-linear-gradient(120deg, hsl(318,94%,61%),hsl(239,69%,51%)); -webkit-background-clip: text;-webkit-text-fill-color: transparent
+         ;
+         width: 300px;
+         height: 400px;
+         font-size: 1.3rem;
+         font-weight: 400;
+         margin-top: 200px;
+     
+     
+     }
+ }

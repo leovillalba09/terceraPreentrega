@@ -1,0 +1,24 @@
+.menu__navegacion{
+    text-transform: uppercase;
+}
+
+.menu__navegacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0  35px;
+    font-size: 1.2rem;
+
+
+}
+
+.menu__navegacion__item{
+    @include letra-color
+}
+
+
+
+.menu__navegacion__item:hover{
+border-bottom: 2px solid hsl(239, 69%, 51%);
+transition: 1s;
+}
